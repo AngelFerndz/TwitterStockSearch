@@ -10,11 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a09600b-6582-49d4-9e9f-a4a2e0bdc762" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/ui/LoginWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/ui/MainWindow.java" afterDir="false" />
+    <list default="true" id="1a09600b-6582-49d4-9e9f-a4a2e0bdc762" name="Default Changelist" comment="Adding Credentials.java">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/twitter4j-async-4.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/twitter4j-core-4.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/twitter4j-examples-4.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/twitter4j-stream-4.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterStockSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterStockSearch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/Credentials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/ui/LoginWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/ui/MainWindow.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -46,14 +57,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.angelf.twitterstocksearch.twitter" />
       <recent name="dev.angelf.twitterstocksearch.filesystem" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\OneDrive\Documents\Software Projects\IdeaProjects\TwitterStockSearch" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="dev.angelf.twitterstocksearch.Main" />
       <module name="TwitterStockSearch" />
@@ -64,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="TwitterStockSearch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -105,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597767874826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Credentials.java">
+      <created>1597768506634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597768506634</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Adding Credentials.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Credentials.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -132,26 +173,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1597765900520" />
+    <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597769319744">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1597769319744" />
+    <state x="461" y="183" key="FileChooserDialogImpl" timestamp="1597768799600">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="461" y="183" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597768799600" />
     <state x="489" y="278" key="Github.ShareDialog" timestamp="1597765621719">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="489" y="278" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1597765621719" />
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom" timestamp="1597770165064">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597770165064" />
+    <state width="1493" height="124" key="GridCell.Tab.0.center" timestamp="1597770165063">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597770165063" />
+    <state width="1493" height="124" key="GridCell.Tab.0.left" timestamp="1597770165063">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597770165063" />
+    <state width="1493" height="124" key="GridCell.Tab.0.right" timestamp="1597770165063">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597770165063" />
     <state x="647" y="138" key="RollbackChangesDialog" timestamp="1597767784449">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="647" y="138" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1597767784449" />
-    <state x="266" y="85" width="981" height="712" key="SettingsEditor" timestamp="1597765255744">
+    <state x="266" y="85" width="981" height="712" key="SettingsEditor" timestamp="1597768811629">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="266" y="85" width="981" height="712" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1597765255744" />
+    <state x="266" y="85" width="981" height="712" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1597768811629" />
     <state x="618" y="331" key="VCS.ChangelistChooser" timestamp="1597767862743">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="618" y="331" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1597767862743" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597768404325">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597768514083">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597768404325" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597768514083" />
     <state x="431" y="155" key="search.everywhere.popup" timestamp="1597764972863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
