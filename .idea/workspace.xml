@@ -10,21 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a09600b-6582-49d4-9e9f-a4a2e0bdc762" name="Default Changelist" comment="Adding Credentials.java">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/twitter4j-async-4.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/twitter4j-core-4.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/twitter4j-examples-4.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/twitter4j-stream-4.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterCredentials.java" afterDir="false" />
+    <list default="true" id="1a09600b-6582-49d4-9e9f-a4a2e0bdc762" name="Default Changelist" comment="Creating Initital Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterStockSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterStockSearch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/Credentials.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/ui/LoginWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/ui/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597768506634</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Credentials.java">
+      <created>1597770215012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597770215012</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creating Initital Test">
+      <created>1597770244517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597770244517</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +167,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Adding Credentials.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Credentials.java" />
+    <MESSAGE value="Creating Initital Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Initital Test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -185,22 +189,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="489" y="278" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1597765621719" />
-    <state width="1493" height="124" key="GridCell.Tab.0.bottom" timestamp="1597770165064">
+    <state width="516" height="706" key="GridCell.Tab.0.bottom" timestamp="1597796436722">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597770165064" />
-    <state width="1493" height="124" key="GridCell.Tab.0.center" timestamp="1597770165063">
+    <state width="516" height="706" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597796436722" />
+    <state width="516" height="706" key="GridCell.Tab.0.center" timestamp="1597796436721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597770165063" />
-    <state width="1493" height="124" key="GridCell.Tab.0.left" timestamp="1597770165063">
+    <state width="516" height="706" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597796436721" />
+    <state width="516" height="706" key="GridCell.Tab.0.left" timestamp="1597796436721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597770165063" />
-    <state width="1493" height="124" key="GridCell.Tab.0.right" timestamp="1597770165063">
+    <state width="516" height="706" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597796436721" />
+    <state width="516" height="706" key="GridCell.Tab.0.right" timestamp="1597796436721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="124" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597770165063" />
+    <state width="516" height="706" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597796436721" />
     <state x="647" y="138" key="RollbackChangesDialog" timestamp="1597767784449">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -213,10 +217,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="618" y="331" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1597767862743" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597768514083">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597770254029">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597768514083" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597770254029" />
     <state x="431" y="155" key="search.everywhere.popup" timestamp="1597764972863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -47,8 +47,8 @@ public class TwitterBot {
             return queryArray;
         } catch (Exception e) {
             //e.printStackTrace();
-            System.out.println("Error gathering tweets: make sure that your Twitter API credentials are set correctly.");
-            System.exit(-1); // Exit Program
+            System.out.println("Error: Unable to gather tweets.");
+            System.out.println("Make sure that your Twitter API credentials are set correctly.");
             return null;
         }
     }
