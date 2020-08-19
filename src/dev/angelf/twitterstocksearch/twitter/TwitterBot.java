@@ -44,6 +44,8 @@ public class TwitterBot {
                 queryArray[i] = s;
             }
 
+            System.out.println(queryArray.length + " Tweets gathered.");
+
             return queryArray;
         } catch (Exception e) {
             //e.printStackTrace();

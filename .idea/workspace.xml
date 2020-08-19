@@ -10,9 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a09600b-6582-49d4-9e9f-a4a2e0bdc762" name="Default Changelist" comment="Creating Initital Test">
+    <list default="true" id="1a09600b-6582-49d4-9e9f-a4a2e0bdc762" name="Default Changelist" comment="Added scanner and basic commands">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TwitterStockSearch/dev/angelf/twitterstocksearch/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TwitterStockSearch/dev/angelf/twitterstocksearch/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TwitterStockSearch/dev/angelf/twitterstocksearch/twitter/TwitterBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TwitterStockSearch/dev/angelf/twitterstocksearch/twitter/TwitterBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TwitterStockSearch/dev/angelf/twitterstocksearch/twitter/TwitterCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TwitterStockSearch/dev/angelf/twitterstocksearch/twitter/TwitterCredentials.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/angelf/twitterstocksearch/twitter/TwitterBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597770244517</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added scanner and basic commands">
+      <created>1597796611608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597796611608</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +177,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Adding Credentials.java" />
     <MESSAGE value="Creating Initital Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Initital Test" />
+    <MESSAGE value="Added scanner and basic commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added scanner and basic commands" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -189,22 +199,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="489" y="278" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1597765621719" />
-    <state width="516" height="706" key="GridCell.Tab.0.bottom" timestamp="1597796436722">
+    <state width="516" height="706" key="GridCell.Tab.0.bottom" timestamp="1597797572316">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="516" height="706" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597796436722" />
-    <state width="516" height="706" key="GridCell.Tab.0.center" timestamp="1597796436721">
+    <state width="516" height="706" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597797572316" />
+    <state width="516" height="706" key="GridCell.Tab.0.center" timestamp="1597797572316">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="516" height="706" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597796436721" />
-    <state width="516" height="706" key="GridCell.Tab.0.left" timestamp="1597796436721">
+    <state width="516" height="706" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597797572316" />
+    <state width="516" height="706" key="GridCell.Tab.0.left" timestamp="1597797572316">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="516" height="706" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597796436721" />
-    <state width="516" height="706" key="GridCell.Tab.0.right" timestamp="1597796436721">
+    <state width="516" height="706" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597797572316" />
+    <state width="516" height="706" key="GridCell.Tab.0.right" timestamp="1597797572316">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="516" height="706" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597796436721" />
+    <state width="516" height="706" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597797572316" />
     <state x="647" y="138" key="RollbackChangesDialog" timestamp="1597767784449">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -217,10 +227,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="618" y="331" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1597767862743" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597770254029">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597796762668">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597770254029" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597796762668" />
     <state x="431" y="155" key="search.everywhere.popup" timestamp="1597764972863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
